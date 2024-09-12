@@ -17,7 +17,7 @@ const HeaderDefault = () => {
               width={20}
               height={20}
               alt="Flowbite Logo"
-              className="mr-3 h-6 sm:h-9 w-full rounded-lg"
+              className="mr-3 h-6 sm:h-9 w-6 sm:w-9 rounded-lg"
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               FoTick
