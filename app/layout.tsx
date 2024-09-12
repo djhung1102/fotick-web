@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="bg-gray-900 scroll-smooth">
+    <html className="dark bg-gray-900 scroll-smooth">
       <body>
         <HeaderDefault />
         {children}

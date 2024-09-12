@@ -22,8 +22,8 @@ const FooterDefault = () => {
         <p className="my-6 text-gray-500 dark:text-gray-400">
           FoTick To-do-list
         </p>
-        {/* <ul className="flex flex-wrap items-center justify-center mb-6 text-gray-900 dark:text-white"> */}
-        {/* <li>
+        <ul className="flex flex-wrap items-center justify-center mb-6 text-gray-900 dark:text-white">
+          <li>
             <Link
               href={'/terms-of-use'}
               className="mr-4 hover:underline md:mr-6 "
@@ -38,8 +38,8 @@ const FooterDefault = () => {
             >
               Privacy policy
             </Link>
-          </li> */}
-        {/* </ul> */}
+          </li>
+        </ul>
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2024{' '}
           <Link href="#" className="hover:underline">

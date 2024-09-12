@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from 'next/link';
 import React from 'react';
 
 const PrivacyPolicy = () => {
@@ -12,15 +11,18 @@ const PrivacyPolicy = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-1 lg:mt-16 lg:px-40">
+            <li className="text-white font-bold text-lg">
+              Last Revised : 12th Sep, 2024
+            </li>
             <div className="space-y-8">
               <div>
                 <h2 className="text-2xl font-extrabold text-gray-900 dark:text-white">
                   Overview
                 </h2>
                 <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                  At Xtify, one of our main priorities is the privacy of our
+                  At FoTick, one of our main priorities is the privacy of our
                   users. This Privacy Policy document describes how your
-                  personal information is handled by Xtify.
+                  personal information is handled by FoTick.
                 </p>
                 <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
                   If you have additional questions or require more information
@@ -34,23 +36,12 @@ const PrivacyPolicy = () => {
                 </h3>
                 <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
                   We do not collect, use, save or have access to any of your
-                  personal data recorded in Xtify apps.
+                  personal data recorded in FoTick apps.
                 </p>
                 <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                  Individual settings relating to the Xtify apps are not
+                  Individual settings relating to the FoTick apps are not
                   personal and are stored only on your device and on your iCloud
                   account using Apple frameworks.
-                </p>
-                <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                  Xtify includes{' '}
-                  <Link
-                    href={'https://appcenter.ms/'}
-                    className="text-white font-semibold"
-                  >
-                    AppCenter
-                  </Link>{' '}
-                  to collect crash events and basic analytics events that can't
-                  be used to track or identify you.
                 </p>
               </div>
 
